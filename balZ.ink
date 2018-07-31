@@ -13,7 +13,7 @@ istemeye istemeye gözlerimi ovuşturuyorum ve telefonumun ekranına dokunuyorum
 ++ [Yirmi dakika daha uyu...]
     ~ HUNGRY = true
     ~ SLEEPY = false
-    Uykumu dolu dolu alıp kalkıyorum, zaten kahvaltı etmeye kimin ihtiyacı var ki? Kantinden bir kaşarlı simit ve Ice Tea alırım yeter. 
+    Uykumu dolu dolu alıp kalkıyorum, zaten kahvaltı etmeye kimin ihtiyacı var ki? Kantinden bir kaşarlı simit ve Ice Tea alırım yeter.
     -> bus
 
 ++ [On dakika daha uyu...]
@@ -37,16 +37,15 @@ istemeye istemeye gözlerimi ovuşturuyorum ve telefonumun ekranına dokunuyorum
 
 == bus ==
 
--    {SLEEPY:  Uykusuzluktan zorlukla kendimi sürükleyerek dışarı çıkıyorum.} <>
- Servise girip kendimi koltuğa atıyorum. <>
--    {TEL: Kız arkadaşımı göreceğim hem.} <>
--    {not HUNGRY && SLEEPY: Gözlerimi kapatıp uykuya dalıyorum. Uykuluyken yemek yiyiyip servise binince hep böyle oluyor. Servis resmen rahatça uykuya dalayım diye hafif hafif sallıyor beni. Servisin güzel yanlarından biri denebilir sanırım.} 
+-    {SLEEPY:  Uykusuzluktan zorlukla kendimi sürükleyerek dışarı çıkıyorum.}
+ Servise girip kendimi koltuğa atıyorum.
+-    {not HUNGRY && SLEEPY: Gözlerimi kapatıp uykuya dalıyorum. Uykuluyken yemek yiyiyip servise binince hep böyle oluyor. Servis resmen rahatça uykuya dalayım diye hafif hafif sallıyor beni. Servisin güzel yanlarından biri denebilir sanırım.}
 -    {not HUNGRY && not SLEEPY: Böylece on dakikanın üstüne tamamlayıp tam anlamıyla uykusuzluğumu yenebilirim.}
 -    {HUNGRY && not SLEEPY: Ama hem açım hem de uykum yok, bu yüzden bunun yerine telefonu açıyorum, kız arkadaşım bugün benimle görüşmek istiyor ne güzel bir gün olacak bugün.''Bugün -evet bunu yazarken teknik olarak bugün- öğle arasında bir şeyler yiyip dolaşalım mı?'' yazmış. 12. sınıf olduğu için pek görüşmeye zaman bulamıyoruz. Sadece bir öğle yemeği bile çok hoş geçebiliyor bu yüzden. Üst dönemden bir kızla çıkmak bazen garip kaçabiiyor fakat şikayet ettiğim falan yok, hem de hiç.}
 
 + {not HUNGRY} [Uyan]
     Gözlerimi açıyorum, servis okula gelmiş. Benim gibi uykulu insanların servisten dışarı çıkmasını bekliyorum. Çıkarken servisçiye bir selam veriyorum ve indiğimde bir iki arkadaşımla karşılaşıyorum.
-        ++ [...] 
+        ++ [...]
         En azından okula giderken biraz laflaşalım diyoruz ve hangimizin ders programının daha kötü olduğu üzerine hararetli bir tartışmaya giriyoruz, hem bizim servisimizde hem de diğer servislerden normalden çok daha az insan inmesi dikkatimizi çekiyor..
         +++ [...]
 + {HUNGRY} [Okula geldin.]
@@ -57,22 +56,22 @@ istemeye istemeye gözlerimi ovuşturuyorum ve telefonumun ekranına dokunuyorum
 == school ==
 Okula girdiğimiz anda bir yanlışlık olduğunu hissediyorum,  tam olarak adını koyamasam dahi, havada bir ağırlık, adeta bir çürümüşlük var, dikkatimi bir şey daha çekiyor, okulda ne bir köpek ne de bir kedi görebiliyorum, koruya mı gittiler acaba? Köşede birisi deli gibi öksürüyor.
 + [...]
-    Durumu o kadar kötü görünüyor ki bazı insanlar yanına gidip onu kontrol ediyorlar. Ben de kalıp ciddi bir şey var mı diye baksam mı diye düşünsem de ilk dersin fizik olduğunu ve hocanın yok yazmak için fırsat kolladığını hatırladığımdan okula doğru yürüyorum. Bir öksürüğü hallederler diye düşünüyorum. 
+    Durumu o kadar kötü görünüyor ki bazı insanlar yanına gidip onu kontrol ediyorlar. Ben de kalıp ciddi bir şey var mı diye baksam mı diye düşünsem de ilk dersin fizik olduğunu ve hocanın yok yazmak için fırsat kolladığını hatırladığımdan okula doğru yürüyorum. Bir öksürüğü hallederler diye düşünüyorum.
 ++ Sınıfa git[.]<>
     -> class
 
 == class ==
-mek için üçüncü kata kadar çıkıyor, pencere kenarındaki sırama oturuyorum, insanlarda bir gerginlik var, zil çalıyor, ders başlıyor... Fizik dersi dinlemem için fazla sıkıcı. 
+mek için üçüncü kata kadar çıkıyor, pencere kenarındaki sırama oturuyorum, insanlarda bir gerginlik var, zil çalıyor, ders başlıyor... Fizik dersi dinlemem için fazla sıkıcı.
     + Dışarı bak[]tığımda binanın önünde insanların toplandığını görebiliyorum, uzaklarda bir yerlerden dumanlar yükseliyor, neler oluyor?
     + Telefona bak[]tığımda sinyalin kesilmiş olduğunu görüyorum. Garip, normalde burada sinyal çok iyi çeker...
-    - Kapıdan gürültülü bir vurma sesi geliyor, hepimiz donup kalıyoruz. Bu vuruşta insani olmayan bir şey var. Sınıfın salağı da içeride olduğuna göre birisinin böyle kapıya vurması için bir sebep de yok. Sonra art arda başka darbeler gelmeye başlıyor... Hoca dersi anlatmayı bırakıp bağırıyor. ''Oğlum gerizekalı mısın, gir içeri kapıyı kırmadığın kaldı bir tek!''. 
+    - Kapıdan gürültülü bir vurma sesi geliyor, hepimiz donup kalıyoruz. Bu vuruşta insani olmayan bir şey var. Sınıfın salağı da içeride olduğuna göre birisinin böyle kapıya vurması için bir sebep de yok. Sonra art arda başka darbeler gelmeye başlıyor... Hoca dersi anlatmayı bırakıp bağırıyor. ''Oğlum gerizekalı mısın, gir içeri kapıyı kırmadığın kaldı bir tek!''.
     ++ [...]
         Okul binası yapılırken mühendisler aşırı zeki olduğu için sınıf kapılarındaki pencereleri ters takmışlar. Dışarıdan bakan biri içeriyi görebiliyor, fakat içeriden bakan biri kapıdakini göremiyor. Önde oturduğum için kapıdaki bir silüetin sarsıldığını görüyorum sadece. Neden biri böyle bir şey yapar ki? Ben bunlara bir anlam vermeye çalışırken cam bir anda kırılıyor ve korkunç anırma sesleri duyuluyor!
     +++ [...]
-        Kırık camdan içeriye giren ellerden akan kanları görüyor, ellerine yer yer cam kırıkları saplı, hatta bir cam parçası avcundan içeri girmiş ve ters taraftan çıkmış, kanın bir kısmının kaynağı bu olmalı. Gözlerim yüzüne kaydığında, kusmamak için kendimi zor tutuyorum, yüzü sapsarı benekler ve lekelerle kaplı, gözlerinin feri sönmüş ve gözleri ufak beyaz lekeler dışında sapsarı... 
-    
+        Kırık camdan içeriye giren ellerden akan kanları görüyor, ellerine yer yer cam kırıkları saplı, hatta bir cam parçası avcundan içeri girmiş ve ters taraftan çıkmış, kanın bir kısmının kaynağı bu olmalı. Gözlerim yüzüne kaydığında, kusmamak için kendimi zor tutuyorum, yüzü sapsarı benekler ve lekelerle kaplı, gözlerinin feri sönmüş ve gözleri ufak beyaz lekeler dışında sapsarı...
+
     ++++ [...]Yaratığın arkasından bir başka yaratık onu insandışı bir kuvvetle tekmeleyerek kapıyı kırdı ve yaratık içeri savruldu, sonra içeri daldı ve kapının yanındaki donup kalmış çocuğun kolunu ısırarak koparıyor, çocuğun dehşet çığlıkları arasında kopan kolundankan fışkırmaya ve duvarı boyamaya başlıyor. Dehşet yaratıklar içeriye girmeye başlıyorlar, hepsinin yüzü benzer olsa da bir kısmının bir ya da iki kolu  birden eksik, kiminin ısırıklardan organları görünebiliyor.
-    
+
         İnsanlara saldırmaya başlıyorlar, acilen ne yapacağıma karar vermeliyim, böyle durursam sıra bana da gelecek.
         -> choices
 
@@ -118,7 +117,7 @@ Onlar beni görmeden bir karara varmalıyım...
 + [Kütüphaneden gir.]
     Kütüphaneden içeriye atlıyorsun, henüz ilk ders olduğu için kütüphanede kimse olmasa gerek ki içeride sadece bir köşede saklanmış nöbetçi öğrenci var.
     ++ Kapıdan dışarıya bak.
-    
+
 - Bir öğrenci koridor boyunca onu kovalayan zombiden kaçıyor, zombi gözlerimin önünde çocuğu yakalayıp yere yıkıyor, ısırdığı kolundan kan süzülüyor ve çocuk debelenmeye başlıyor. Çocuğun biraz gerisinde acil çıkış kapısı var, ya da koridor boyunca kaçmayı deneyebilirsin.
 
 + [Yardım et]
@@ -187,7 +186,7 @@ Dişlerimi sıkıyorum... İkisini de kurtarabilir miyim... Ya da... herhangi bi
     Ön kapıya doğru yürümeye başlarken, yaratıklara karşı bazı öğretmenlerin silahlanıp kendilerini savunduğunu görüyorum. Silah sesleri yaratıkların homurtularını kesiyor.
     ++ [Yardım et.]
         Elime bir silah alıp zombileri öldürmeye başlıyorum, bir süre sonra zombiler öğretmenleri birer birer yakalamaya başlıyor, silahla geri çekiliyorum. Kurşunu bitice yere atıyorum.
-            -> G_blok_on 
+            -> G_blok_on
     ++ [Görmezden gel.]
     Zombiler beni yakalayıp öldürüyorlar.
     -> Dead
@@ -199,7 +198,7 @@ Dişlerimi sıkıyorum... İkisini de kurtarabilir miyim... Ya da... herhangi bi
     G bloğun önüne geliyorum, öğrenciler yaratıklardan korunmak için barikat kurmuşlar. İçeriye sesleniyorum: "Beni içeri alın.", barikatın başındaki üst dönem başını sallıyor. "Hayır."
     + [İkna etmeye çalış.]
         ++ "İki ayağım üstündeyim, zombi olamam?"
-        ++ "Zombiye benzer hâlim var mı?" 
+        ++ "Zombiye benzer hâlim var mı?"
         ++ "Kimse beni ısırmadı."
         - Sen cümleni bitiremeden binanın içinden devasa bir gürültü geliyor, kapının arkasında zombiler kapıyı koruyan öğrencilere saldırıyor. Karmaşadan yararlanarak içeri giriyorsun
         -> G_blok_main
@@ -227,9 +226,9 @@ G bloğun giriş katı kıyamet sahnesine dönmüş, yerler kanla paspaslanmış
     + [Kankanı kurtar.]
         BBH
         -> G_blok_upper
-        
+
 == G_blok_upper ==
-    Üst kata çıktığımda kankam yanıma geliyor. 
+    Üst kata çıktığımda kankam yanıma geliyor.
     #FIXME: We need a real name for the bro guy.
 == Lone_survivor ==
 Kurtuldun, ama arkanda ölüm bıraktın... Gerçekten değdi mi sana güvenenleri arkanda bırakmana? Ölene kadar merak edeceksin bunu... hata belki daha bile sonra...
