@@ -196,12 +196,41 @@ Dişlerimi sıkıyorum... İkisini de kurtarabilir miyim... Ya da... herhangi bi
     -> Lone_survivor.
 
 == G_blok_on ==
-    G bloğun önüne geliyorum, öğrenciler barikat kurmuşlar.
-    -> END
+    G bloğun önüne geliyorum, öğrenciler yaratıklardan korunmak için barikat kurmuşlar. İçeriye sesleniyorum: "Beni içeri alın.", barikatın başındaki üst dönem başını sallıyor. "Hayır."
+    + [İkna etmeye çalış.]
+        ++ "İki ayağım üstündeyim, zombi olamam?"
+        ++ "Zombiye benzer hâlim var mı?" 
+        ++ "Kimse beni ısırmadı."
+        - Sen cümleni bitiremeden binanın içinden devasa bir gürültü geliyor, kapının arkasında zombiler kapıyı koruyan öğrencilere saldırıyor. Karmaşadan yararlanarak içeri giriyorsun
+        -> G_blok_main
+    + [Geriye koşup arkadan dolan.]
+        -> G_blok_arka
+    + [Geriye koşup A bloğa dön.]
+        Koşarken yaratıklar beni fark ediyorlar ve ölüyorum.
+        -> Dead
 == G_blok_arka ==
-    G bloğun arkasına geliyorum. Çetin hocanın penceresinin önündeyim.
+    G bloğun arkasına geliyorum. Çetin hocanın penceresinin önündeyim, pencere açık kalmış. Buradan içeriye giriyorum. Allah'a şükür Çetin hoca olay sırasında izindeymiş, tam ne yapacağımı düşünüyorken dışardan dehşet bir gürültü kopuyor.
+    + [Dışarı çık]
+    -> G_blok_main
     -> END
 
+== G_blok_main ==
+G bloğun giriş katı kıyamet sahnesine dönmüş, yerler kanla paspaslanmış gibi, cesetler her yeri dolduruyorlar, camlar kırık, sıralar yerlerde. Nereye gitmelisin?
+    + [Kız arkadaşını kurtar.]
+        Kız arkadaşım en son sefer sığınaktaydı, önce ona gitmeliyim. Koşa koşa acil çıkış kapısından aşağı inip sığınağın kapısını aralıyorum, kapıyı açmamla beraber bir ceset kapıdan düşüyor. İçerisi kapkaranlık ve kokuyor.
+        ++ [İçeri gir.]
+            Kapıdan içeri giriyorum, ben ne olduğunu anlamadan karanlık üzerime çullanıyor, çığlıklarım koridorlarda yankılanıyor.
+            -> Dead
+        ++ [Önce kankanı kurtar.]
+            Önce kankamı kurtarmaya karar verip yukarı çıkıyorum.
+            -> G_blok_upper
+    + [Kankanı kurtar.]
+        BBH
+        -> G_blok_upper
+        
+== G_blok_upper ==
+    Üst kata çıktığımda kankam yanıma geliyor. 
+    #FIXME: We need a real name for the bro guy.
 == Lone_survivor ==
 Kurtuldun, ama arkanda ölüm bıraktın... Gerçekten değdi mi sana güvenenleri arkanda bırakmana? Ölene kadar merak edeceksin bunu... hata belki daha bile sonra...
 -> Survived
