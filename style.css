@@ -1,9 +1,11 @@
 body {
     font-family: sans-serif;
     font-weight: lighter;
+    background-color: rgb(32, 0 ,0);
 }
 
 h1 {
+    color: white;
     text-align: center;
     font-weight: lighter;
 }
@@ -22,8 +24,13 @@ p, a {
 }
 
 p {
+    color: white;
     opacity: 0.0;
     transition: opacity 1.0s;
+}
+
+a {
+  color: brown;
 }
 
 p.show {
@@ -35,5 +42,5 @@ p.choice {
 }
 
 a:hover {
-    color: black;
+    color: white;
 }
