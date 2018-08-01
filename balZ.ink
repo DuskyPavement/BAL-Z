@@ -228,12 +228,49 @@ G bloğun giriş katı kıyamet sahnesine dönmüş, yerler kanla paspaslanmış
         -> G_blok_upper
 
 == G_blok_upper ==
-    Üst kata çıktığımda kankam yanıma geliyor.
-    #FIXME: We need a real name for the bro guy.
+    Üst kata çıktığımda GENERICBRO yanıma geliyor, "Abi çok iyi oldu geldiğin, burdan çıkmanın bir yolunu bulmamız lazım, yaratıklar koruda şu an, sanırım giriş kapısından çıkabiliriz."
+    + [Tamamdır.]
+    -> savingbro
+    + [Önce GENERICGF'yi kurtarmalıyız.]
+    -> theprincessisinanothercastlemario
 == Lone_survivor ==
 Kurtuldun, ama arkanda ölüm bıraktın... Gerçekten değdi mi sana güvenenleri arkanda bırakmana? Ölene kadar merak edeceksin bunu... hata belki daha bile sonra...
 -> Survived
 
+== theprincessisinanothercastlemario ==
+GENERICBRO'yla beraber aşağı kata iniyoruz, GENERICBRO'nun yanında telefonu da olduğundan flaşı açıp içeri giriyoruz. İçeri girer girmez bir yaratık GENERICBRO'nun üstüne atlıyor.
+    + [Savaş]
+    Yaratığı tekmeyle yana savuruyorum, sonra yaratığı tutarak bir kapıdan içeriye atıyoruz ve kapıyı arkasından kitliyoruz.
+    Tünelin sonunda GENERICGF'yle karşılaşıyoruz. "Burada okulun dışına çıkan bir tünel girişi var, kapıyı hep beraber açabiliriz." diyor, arkamızda hiç bir yaratık olmadığından, kapıyı zorlayarak çok uğraşsak da açabiliyoruz.
+    On dakika boyunca karanlıkta süründükten sonra, en sonunda dışarı çıkıyoruz, güneş ışığı gözlerimizi yakıyor.
+    -> best_ending
+    + [Kaç]
+        Sığınağın içine doğru koşarak kaçıyorum GENERICGF beni sığınağın sonunda bekliyor, "Burada okuldan dışarı giden tüneller var, ama kapıyı açamıyorum, yardım et bana." Beraber kapıyı açmaya çalışıyoruz, ancak ne kadar zorlasak da kapı açılmıyor. Kapıyı açmaya çalışırken, yaratık kız arkadaşımı tutup ısırmaya çalışıyor.
+        ++ [Yardım et.]
+        Kız arkadaşıma yardım etmek için yaratığın üzerine atlayıp boğuşmaya başlıyorum, tünel kapısını açması için ona bağırıyorum, adranelinin verdiği güçle kapıyı zorlayarak açıyor. Yaratık beni ısırdığında kaderimi anlyıorum ve ona kaçması için bağırıyorum. Gözlerimi kapatırken, düşünebildiğim tek şey, en azından onun güvende olduğu.
+        -> END
+        ++ [Kaç.]
+        Kaçmay çalışırken ayağımı burkup düşüyorum.
+        Kız arkadaşımın gözlerindeki ihanete uğramışlıkla göz göze geliyorum, yaratığın dişleri boynuna geçerken, bana hain diyen gözlerin gözbebekleri ufalanıp gözlerine dağılmaya başlıyor; kanı duvarı boyuyor.
+        Ben geriye doğru gitmeye çalışırken, eskiden kız arkadaşım olan canavar, seri hareketlerle boynumu koparıyor.
+        -> Dead
+
+== best_ending ==
+
+    Dışarı çıkıp bir kaç saat boyunca dolandıktan sonra, yetkililerin bölgeyi karantinaya alıp başarıyla hastalığı sınırladığını öğreniyorsunuz.
+    Bir kaç gün sonra, içeride canlı hiç kimsenin kalmadığından emin olduktan sonra, bölge halı gibi düzleşene kadar bombalanıyor.
+    Hayatın hiç bir zaman aynısı gibi olmayacak, ama hayattasın, çok fazla ölüm gördün, gözlerinin önünde çok fazla insan kaybetti hayatını.
+    Ancak hayatta bazen ulaşılabilecek en iyi sonlar dahi, bir yere kadar iyidirler. Herkesi kurtarabildin mi? Yoksa daha iyisini yapabilir misin?..
+    Bu soru hep aklını kurcalayacak, geceleri kabuslarından sıçrayıp uyandığında aklında kalacak...
+    Daha iyisini yapabilir misin?
+    + [Evet, her kabusun daha iyi bir sonu vardır.]
+    ->start
+    + [Hayır, her kabusun bir sonu vardır.]
+    -> END
+
+== savingbro ==
+GENERICBRO'yla dışarı çıkarken GENERICGF'yi düşünmeden edemiyorum, onu arkada bıraktığıma değdi mi, gidip onu da mı kurtarmalıydık?
+->Survived
 == Dead ==
 - Denedin ama başaramadın.
 
