@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="class_look_telephone_data" version="1.3.0" audacityversion="2.1.2" sel0="7.5232653061" sel1="7.5232653061" vpos="0" h="0.0000000000" zoom="86.1328125000" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags/>
+	<wavetrack name="Ses İzi" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="331776">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000a92.au" len="165888" min="-0.251221" max="0.340454" rms="0.024179"/>
+				</waveblock>
+				<waveblock start="165888">
+					<simpleblockfile filename="e0000e50.au" len="165888" min="-0.16748" max="0.237732" rms="0.018803"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Ses İzi" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="331776">
+				<waveblock start="0">
+					<simpleblockfile filename="e000068a.au" len="165888" min="-0.250092" max="0.338104" rms="0.024037"/>
+				</waveblock>
+				<waveblock start="165888">
+					<simpleblockfile filename="e0000a0b.au" len="165888" min="-0.16687" max="0.235779" rms="0.018694"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
