@@ -1,3 +1,20 @@
+//var dict = new Object();
+//dict["gozlerimisabahinkorundeaciyorumdahagunesbilecikmamisyadaperdelerdengirmiyorenazindanuykusuzumdungecegecsaatlerekadararkadaslarlasohbetetmistimbuhaftasonualsancakagidipbirseylericmeplanimizikonusuyordukveaklimdoluydu\n"] = "start_1.mp3";
+var dict = {"Gözlerimi sabahın köründe açıyorum. Daha güneş bile çıkmamış, ya da perdelerden girmiyor en azından. Uykusuzum, dün gece geç saatlere kadar arkadaşlarla sohbet etmiştim, bu haftasonu Alsancak’a gidip bir şeyler içme planımızı konuşuyorduk ve aklım doluydu.\n":"start_1.mp3",
+            "istemeye istemeye gözlerimi ovuşturuyorum ve telefonumun ekranına dokunuyorum. Korkunç parlak mavi bir ışık gözlerimi yakıyor. Saat 6.30, eğer kahvaltı etmezsem yirmi dakika daha uyumayı göze alabilirim, on dakika daha uyuyup kahvaltı da edebilirim ama biraz koşuşturmam gerekir ya da şimdi kalkabilirim...\n":"start_2.mp3"  }
+var audioOld = new Audio();
+var started = 0;
+function playSound(paragraphElement_) {
+  if (started > 1){
+    audioOld.pause()
+  }
+  console.log(dict[paragraphElement_]);
+  var audio = new Audio(dict[paragraphElement_]);
+  audio.play();
+  started = started + 1;
+  audioOld = audio;
+}
+
 (function(storyContent) {
 
     var story = new inkjs.Story(storyContent);
@@ -41,7 +58,7 @@
             var paragraphElement = document.createElement('p');
             paragraphElement.innerHTML = paragraphText;
             storyContainer.appendChild(paragraphElement);
-
+            playSound(paragraphText);
             // Fade in paragraph after a short delay
             showAfter(delay, paragraphElement);
 

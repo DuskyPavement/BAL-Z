@@ -3,7 +3,12 @@ VAR SLEEPY = true
 VAR TV = false
 VAR TEL = false
 VAR finished_once = 0
--> start
+
+-> intro
+== intro ==
+Hikayeye başlamak için başlaya tıklayın.
++ [Başla]
+    -> start
 == start ==
 Gözlerimi sabahın köründe açıyorum. Daha güneş bile çıkmamış, ya da perdelerden girmiyor en azından. Uykusuzum, dün gece geç saatlere kadar arkadaşlarla sohbet etmiştim, bu haftasonu Alsancak’a gidip bir şeyler içme planımızı konuşuyorduk ve aklım doluydu.
 + [...]
