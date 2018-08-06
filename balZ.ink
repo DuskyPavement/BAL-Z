@@ -231,24 +231,24 @@ G bloğun giriş katı kıyamet sahnesine dönmüş, yerler kanla paspaslanmış
         -> G_blok_upper
 
 == G_blok_upper ==
-    Üst kata çıktığımda GENERICBRO yanıma geliyor, "Abi çok iyi oldu geldiğin, burdan çıkmanın bir yolunu bulmamız lazım, yaratıklar koruda şu an, sanırım giriş kapısından çıkabiliriz."
+    Üst kata çıktığımda Özkan yanıma geliyor, "Abi çok iyi oldu geldiğin, burdan çıkmanın bir yolunu bulmamız lazım, yaratıklar koruda şu an, sanırım giriş kapısından çıkabiliriz."
     + [Tamamdır.]
     -> savingbro
-    + [Önce GENERICGF'yi kurtarmalıyız.]
+    + [Önce Eylül'yi kurtarmalıyız.]
     -> theprincessisinanothercastlemario
 == Lone_survivor ==
 Kurtuldun, ama arkanda ölüm bıraktın... Gerçekten değdi mi sana güvenenleri arkanda bırakmana? Ölene kadar merak edeceksin bunu... hatta belki daha bile sonra...
 -> Survived
 
 == theprincessisinanothercastlemario ==
-"Yengemi bırakamayız di mi?" diyen GENERICBRO'yla beraber aşağı kata iniyoruz, GENERICBRO'nun yanında telefonu da olduğundan flaşı açıp içeri giriyoruz. İçeri girer girmez bir yaratık GENERICBRO'nun üstüne atlıyor.
+"Yengemi bırakamayız di mi?" diyen Özkan'yla beraber aşağı kata iniyoruz, Özkan'nun yanında telefonu da olduğundan flaşı açıp içeri giriyoruz. İçeri girer girmez bir yaratık Özkan'nun üstüne atlıyor.
     + [Savaş]
     Yaratığı tekmeyle yana savuruyorum, sonra yaratığı tutarak bir kapıdan içeriye atıyoruz ve kapıyı arkasından kitliyoruz.
-    Tünelin sonunda GENERICGF'yle karşılaşıyoruz. "Burada okulun dışına çıkan bir tünel girişi var, kapıyı hep beraber açabiliriz." diyor, arkamızda hiç bir yaratık olmadığından, kapıyı zorlayarak çok uğraşsak da açabiliyoruz.
+    Tünelin sonunda Eylül'yle karşılaşıyoruz. "Burada okulun dışına çıkan bir tünel girişi var, kapıyı hep beraber açabiliriz." diyor, arkamızda hiç bir yaratık olmadığından, kapıyı zorlayarak çok uğraşsak da açabiliyoruz.
     On dakika boyunca karanlıkta süründükten sonra, en sonunda dışarı çıkıyoruz, güneş ışığı gözlerimizi yakıyor.
     -> best_ending
     + [Kaç]
-        Sığınağın içine doğru koşarak kaçıyorum GENERICGF beni sığınağın sonunda bekliyor, "Burada okuldan dışarı giden tüneller var, ama kapıyı açamıyorum, yardım et bana." Beraber kapıyı açmaya çalışıyoruz, ancak ne kadar zorlasak da kapı açılmıyor. Kapıyı açmaya çalışırken, GENERICBRO'ye saldıran yaratık kız arkadaşımı tutup ısırmaya çalışıyor.
+        Sığınağın içine doğru koşarak kaçıyorum Eylül beni sığınağın sonunda bekliyor, "Burada okuldan dışarı giden tüneller var, ama kapıyı açamıyorum, yardım et bana." Beraber kapıyı açmaya çalışıyoruz, ancak ne kadar zorlasak da kapı açılmıyor. Kapıyı açmaya çalışırken, Özkan'ye saldıran yaratık kız arkadaşımı tutup ısırmaya çalışıyor.
         ++ [Yardım et.]
         Kız arkadaşıma yardım etmek için yaratığın üzerine atlayıp boğuşmaya başlıyorum, tünel kapısını açması için ona bağırıyorum, adranelinin verdiği güçle kapıyı zorlayarak açıyor. Yaratık beni ısırdığında kaderimi anlıyorum ve ona kaçması için bağırıyorum. Gözlerimi kapatırken, düşünebildiğim tek şey, en azından onun güvende olduğu.
         -> END
@@ -272,7 +272,7 @@ Kurtuldun, ama arkanda ölüm bıraktın... Gerçekten değdi mi sana güvenenle
     -> END
 
 == savingbro ==
-GENERICBRO'yla dışarı çıkarken GENERICGF'yi düşünmeden edemiyorum, onu arkada bıraktığıma değdi mi, gidip onu da mı kurtarmalıydık?
+Özkan'yla dışarı çıkarken Eylül'yi düşünmeden edemiyorum, onu arkada bıraktığıma değdi mi, gidip onu da mı kurtarmalıydık?
 ->Survived
 == Dead ==
 - Denedin ama başaramadın.
