@@ -157,24 +157,24 @@ Kırmızı bir derya adeta... Kıpkırmızı...
 
 Telefonuma bir mesaj geliyor.
 
-<p class="text_"><b>Canım <3</b> </br> G blok bodrumunda kısılı kaldım yardım et bana! </p>
+<text><b>Canım <3</b> </br> G blok bodrumunda kısılı kaldım yardım et bana! </text>
 
 Hemen sonra bir tane daha.
 
-<p class="text_"> <b>Bro</b> </br> Abi G bloğun en tepesindeyim nasıl çıkacağım bilmiyorum.</p>
+<text> <b>Bro</b> </br> Abi G bloğun en tepesindeyim nasıl çıkacağım bilmiyorum.</text>
 
 Dişlerimi sıkıyorum... İkisini de kurtarabilir miyim... Ya da... herhangi birini kurtarmalı mıyım?
 
 + [G bloğa müzik atolyesi tarafından gir.]
     Doğrudan G bloğa gitmek intihar olur, daha ihtiyatlı olmalıyım, diye düşündüm kendi kendime, böylece müzik atolyesinin arkasına geçtim ve G bloğun arkasına doğru yürümeye başladım. Yürürken birdenbire çalılardan bir ses geldi.
-    ++ [Sürpriz saldırı yap.]
-        Yaratığı şaşırtmak için üstüne atlıyorum. Ama bu da ne? Bu bir yaratık değil sadece her şeyden habersiz sigara içen bir kardo; Ben şaşkınlıkla yere düşerken zombi çocuğun üstüne atlıyor.
+    ++ [Ne olduğuna bak.]
+        Yaratığı görme beklentisiyle çalıların içinde bakıyorum? Bu bir yaratık değil sadece her şeyden habersiz sigara içen bir kardo; Birdenbire zombi çocuğun üstüne atlıyor.
         +++ [Kaçmaya çalış.]
             Zombi çocuğun işini bitirip bana doğru koşmaya başlıyor.
             -> Dead
         +++ [Savaş]
-         ++++ [Kafasına vur.]
-            Kafası paramparça olup yere devriliyor.
+         ++++ [İttir.]
+            Zombi geriye doğru gerileyip devriliyor şansı kullanıp koşarak uzaklaşıyorsun.
             -> G_blok_arka
          ++++ [Bacağına vur.]
             Zombinin bacağına vurulur mu?
@@ -185,7 +185,7 @@ Dişlerimi sıkıyorum... İkisini de kurtarabilir miyim... Ya da... herhangi bi
 + [G bloğun ön kapısına doğrudan yürü.]
     Ön kapıya doğru yürümeye başlarken, yaratıklara karşı bazı öğretmenlerin silahlanıp kendilerini savunduğunu görüyorum. Silah sesleri yaratıkların homurtularını kesiyor.
     ++ [Yardım et.]
-        Elime bir silah alıp zombileri öldürmeye başlıyorum, bir süre sonra zombiler öğretmenleri birer birer yakalamaya başlıyor, silahla geri çekiliyorum. Kurşunu bitice yere atıyorum.
+        Kimyacım elime bir kürek tutuşturuyor, matematikçim de "Bize yardım et." diye sesleniyor. Küreği alıp zombilere savurmaya başlıyorum, bir süre sonra zombiler öğretmenleri birer birer yakalamaya başlıyor, küreğin başı yamulduğu için yere atıyorum ve G bloğa koşuyorum.
             -> G_blok_on
     ++ [Görmezden gel.]
     Zombiler beni yakalayıp öldürüyorlar.
@@ -195,7 +195,7 @@ Dişlerimi sıkıyorum... İkisini de kurtarabilir miyim... Ya da... herhangi bi
     -> Lone_survivor.
 
 == G_blok_on ==
-    G bloğun önüne geliyorum, öğrenciler yaratıklardan korunmak için barikat kurmuşlar. İçeriye sesleniyorum: "Beni içeri alın.", barikatın başındaki üst dönem başını sallıyor. "Hayır."
+    G bloğun önüne geliyorum, öğrenciler yaratıklardan korunmak için kapının önüne sıralarla barikat kurmuşlar. İçeriye sesleniyorum: "Beni içeri alın.", barikatın başındaki Fındıklılı üst dönem başını sallıyor. "Hayır."
     + [İkna etmeye çalış.]
         ++ "İki ayağım üstündeyim, zombi olamam?"
         ++ "Zombiye benzer hâlim var mı?"
@@ -214,17 +214,20 @@ Dişlerimi sıkıyorum... İkisini de kurtarabilir miyim... Ya da... herhangi bi
     -> END
 
 == G_blok_main ==
-G bloğun giriş katı kıyamet sahnesine dönmüş, yerler kanla paspaslanmış gibi, cesetler her yeri dolduruyorlar, camlar kırık, sıralar yerlerde. Nereye gitmelisin?
+G bloğun giriş katı kıyamet sahnesine dönmüş, yerler kanla paspaslanmış gibi, cesetler her yeri dolduruyorlar, camlar kırık, sıralar yerlerde. Koridorun ilersinde bir yerlerde yaratıklardan kaçmaya çalışan öğrencilerin beyhude çığlıkları geliyor. Nereye gitmelisin?
     + [Kız arkadaşını kurtar.]
-        Kız arkadaşım en son sefer sığınaktaydı, önce ona gitmeliyim. Koşa koşa acil çıkış kapısından aşağı inip sığınağın kapısını aralıyorum, kapıyı açmamla beraber bir ceset kapıdan düşüyor. İçerisi kapkaranlık ve kokuyor.
+        Aşkım en son sığınaktaydı, önce ona gitmeliyim. Koşa koşa acil çıkış kapısından aşağı inip sığınağın kapısını aralıyorum, kapıyı açmamla beraber bir ceset kapıdan düşüyor. İçerisi kapkaranlık ve kokuyor.
         ++ [İçeri gir.]
             Kapıdan içeri giriyorum, ben ne olduğunu anlamadan karanlık üzerime çullanıyor, çığlıklarım koridorlarda yankılanıyor.
             -> Dead
         ++ [Önce kankanı kurtar.]
             Önce kankamı kurtarmaya karar verip yukarı çıkıyorum.
             -> G_blok_upper
+    + [Öğrencileri kurtarmayı dene]
+            Öğrencileri kurtarmak için seslerin geldiği yöne doğru koşarken, yanından geçtiğin sınıftan bir çift el seni çekip öldürüyor.
+            -> Dead
     + [Kankanı kurtar.]
-        BBH
+        Önce biraderimi kurtarmaya karar veriyorum.
         -> G_blok_upper
 
 == G_blok_upper ==
@@ -234,23 +237,23 @@ G bloğun giriş katı kıyamet sahnesine dönmüş, yerler kanla paspaslanmış
     + [Önce GENERICGF'yi kurtarmalıyız.]
     -> theprincessisinanothercastlemario
 == Lone_survivor ==
-Kurtuldun, ama arkanda ölüm bıraktın... Gerçekten değdi mi sana güvenenleri arkanda bırakmana? Ölene kadar merak edeceksin bunu... hata belki daha bile sonra...
+Kurtuldun, ama arkanda ölüm bıraktın... Gerçekten değdi mi sana güvenenleri arkanda bırakmana? Ölene kadar merak edeceksin bunu... hatta belki daha bile sonra...
 -> Survived
 
 == theprincessisinanothercastlemario ==
-GENERICBRO'yla beraber aşağı kata iniyoruz, GENERICBRO'nun yanında telefonu da olduğundan flaşı açıp içeri giriyoruz. İçeri girer girmez bir yaratık GENERICBRO'nun üstüne atlıyor.
+"Yengemi bırakamayız di mi?" diyen GENERICBRO'yla beraber aşağı kata iniyoruz, GENERICBRO'nun yanında telefonu da olduğundan flaşı açıp içeri giriyoruz. İçeri girer girmez bir yaratık GENERICBRO'nun üstüne atlıyor.
     + [Savaş]
     Yaratığı tekmeyle yana savuruyorum, sonra yaratığı tutarak bir kapıdan içeriye atıyoruz ve kapıyı arkasından kitliyoruz.
     Tünelin sonunda GENERICGF'yle karşılaşıyoruz. "Burada okulun dışına çıkan bir tünel girişi var, kapıyı hep beraber açabiliriz." diyor, arkamızda hiç bir yaratık olmadığından, kapıyı zorlayarak çok uğraşsak da açabiliyoruz.
     On dakika boyunca karanlıkta süründükten sonra, en sonunda dışarı çıkıyoruz, güneş ışığı gözlerimizi yakıyor.
     -> best_ending
     + [Kaç]
-        Sığınağın içine doğru koşarak kaçıyorum GENERICGF beni sığınağın sonunda bekliyor, "Burada okuldan dışarı giden tüneller var, ama kapıyı açamıyorum, yardım et bana." Beraber kapıyı açmaya çalışıyoruz, ancak ne kadar zorlasak da kapı açılmıyor. Kapıyı açmaya çalışırken, yaratık kız arkadaşımı tutup ısırmaya çalışıyor.
+        Sığınağın içine doğru koşarak kaçıyorum GENERICGF beni sığınağın sonunda bekliyor, "Burada okuldan dışarı giden tüneller var, ama kapıyı açamıyorum, yardım et bana." Beraber kapıyı açmaya çalışıyoruz, ancak ne kadar zorlasak da kapı açılmıyor. Kapıyı açmaya çalışırken, GENERICBRO'ye saldıran yaratık kız arkadaşımı tutup ısırmaya çalışıyor.
         ++ [Yardım et.]
-        Kız arkadaşıma yardım etmek için yaratığın üzerine atlayıp boğuşmaya başlıyorum, tünel kapısını açması için ona bağırıyorum, adranelinin verdiği güçle kapıyı zorlayarak açıyor. Yaratık beni ısırdığında kaderimi anlyıorum ve ona kaçması için bağırıyorum. Gözlerimi kapatırken, düşünebildiğim tek şey, en azından onun güvende olduğu.
+        Kız arkadaşıma yardım etmek için yaratığın üzerine atlayıp boğuşmaya başlıyorum, tünel kapısını açması için ona bağırıyorum, adranelinin verdiği güçle kapıyı zorlayarak açıyor. Yaratık beni ısırdığında kaderimi anlıyorum ve ona kaçması için bağırıyorum. Gözlerimi kapatırken, düşünebildiğim tek şey, en azından onun güvende olduğu.
         -> END
         ++ [Kaç.]
-        Kaçmay çalışırken ayağımı burkup düşüyorum.
+        Kaçmaya çalışırken ayağımı burkup düşüyorum.
         Kız arkadaşımın gözlerindeki ihanete uğramışlıkla göz göze geliyorum, yaratığın dişleri boynuna geçerken, bana hain diyen gözlerin gözbebekleri ufalanıp gözlerine dağılmaya başlıyor; kanı duvarı boyuyor.
         Ben geriye doğru gitmeye çalışırken, eskiden kız arkadaşım olan canavar, seri hareketlerle boynumu koparıyor.
         -> Dead
