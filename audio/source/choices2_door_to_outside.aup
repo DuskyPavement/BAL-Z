@@ -1,28 +1,28 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
-<project xmlns="http://audacity.sourceforge.net/xml/" projname="choices2_door_to_outside_data" version="1.3.0" audacityversion="2.1.2" sel0="0.0000000000" sel1="0.0000000000" vpos="0" h="0.0000000000" zoom="86.1328125000" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="choices2_door_to_outside_data" version="1.3.0" audacityversion="2.2.2" sel0="0.0000000000" sel1="0.0000000000" vpos="0" h="0.0000000000" zoom="86.1328125000" rate="44100.0" snapto="off" selectionformat="sa:dd:ss + milisaniye" frequencyformat="Hz" bandwidthformat="oktav">
 	<tags/>
-	<wavetrack name="Ses İzi" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
-		<waveclip offset="0.00000000">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="426880">
+	<wavetrack name="Ses İzi" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="335360">
 				<waveblock start="0">
-					<simpleblockfile filename="e0000739.au" len="262144" min="-0.213928" max="0.284729" rms="0.030935"/>
+					<simpleblockfile filename="e00009b3.au" len="157184" min="-0.213928" max="0.284729" rms="0.035689"/>
 				</waveblock>
-				<waveblock start="262144">
-					<simpleblockfile filename="e0000e2e.au" len="164736" min="-0.092773" max="0.105988" rms="0.009741"/>
+				<waveblock start="157184">
+					<simpleblockfile filename="e0000126.au" len="178176" min="-0.197632" max="0.23407" rms="0.019709"/>
 				</waveblock>
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="Ses İzi" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
-		<waveclip offset="0.00000000">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="426880">
+	<wavetrack name="Ses İzi" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="335360">
 				<waveblock start="0">
-					<simpleblockfile filename="e0000776.au" len="262144" min="-0.211945" max="0.283051" rms="0.030753"/>
+					<simpleblockfile filename="e0000adc.au" len="157184" min="-0.211945" max="0.283051" rms="0.035475"/>
 				</waveblock>
-				<waveblock start="262144">
-					<simpleblockfile filename="e00005db.au" len="164736" min="-0.091888" max="0.105621" rms="0.009684"/>
+				<waveblock start="157184">
+					<simpleblockfile filename="e00001b2.au" len="178176" min="-0.197418" max="0.232269" rms="0.019599"/>
 				</waveblock>
 			</sequence>
 			<envelope numpoints="0"/>

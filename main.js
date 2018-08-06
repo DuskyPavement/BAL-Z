@@ -1,7 +1,11 @@
-//var dict = new Object();
-//dict["gozlerimisabahinkorundeaciyorumdahagunesbilecikmamisyadaperdelerdengirmiyorenazindanuykusuzumdungecegecsaatlerekadararkadaslarlasohbetetmistimbuhaftasonualsancakagidipbirseylericmeplanimizikonusuyordukveaklimdoluydu\n"] = "start_1.mp3";
 var dict = {"Gözlerimi sabahın köründe açıyorum. Daha güneş bile çıkmamış, ya da perdelerden girmiyor en azından. Uykusuzum, dün gece geç saatlere kadar arkadaşlarla sohbet etmiştim, bu haftasonu Alsancak’a gidip bir şeyler içme planımızı konuşuyorduk ve aklım doluydu.\n":"start_1.mp3",
-            "istemeye istemeye gözlerimi ovuşturuyorum ve telefonumun ekranına dokunuyorum. Korkunç parlak mavi bir ışık gözlerimi yakıyor. Saat 6.30, eğer kahvaltı etmezsem yirmi dakika daha uyumayı göze alabilirim, on dakika daha uyuyup kahvaltı da edebilirim ama biraz koşuşturmam gerekir ya da şimdi kalkabilirim...\n":"start_2.mp3"  }
+            "istemeye istemeye gözlerimi ovuşturuyorum ve telefonumun ekranına dokunuyorum. Korkunç parlak mavi bir ışık gözlerimi yakıyor. Saat 6.30, eğer kahvaltı etmezsem yirmi dakika daha uyumayı göze alabilirim, on dakika daha uyuyup kahvaltı da edebilirim ama biraz koşuşturmam gerekir ya da şimdi kalkabilirim...\n":"start_2.mp3",
+            "\"Başım\" diye sızlanarak yataktan kalkıyorum, kendimi bir şekilde mutfağa kadar sürükleyip biraz tost ekmeğiyle peynir yemeye başlıyorum.\n":"start_just_wake_up.mp3",
+            "":"start_tel.mp3",
+            "":"start_ten.mp3",
+            "Televizyonu açıyorum, haberlerde pek birşey yok, hastanelere çok fazla insanın akın ettiğiyle ilgili bir şeyler diyor spiker.\n":"start_tv.mp3",
+            "":"start_twenty.mp3"
+          };
 var audioOld = new Audio();
 var started = 0;
 function playSound(paragraphElement_) {
@@ -9,7 +13,7 @@ function playSound(paragraphElement_) {
     audioOld.pause()
   }
   console.log(dict[paragraphElement_]);
-  var audio = new Audio(dict[paragraphElement_]);
+  var audio = new Audio("\./audio\/output\/mp3\/" + dict[paragraphElement_]);
   audio.play();
   started = started + 1;
   audioOld = audio;
