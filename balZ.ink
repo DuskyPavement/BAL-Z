@@ -24,18 +24,21 @@ istemeye istemeye gözlerimi ovuşturuyorum ve telefonumun ekranına dokunuyorum
 ++ [On dakika daha uyu...]
     ~ SLEEPY = false
     Uykumu aldım, gene de hafifçe yalpalayarak yataktan kalkıyorum, kahvaltıyı hızlıca ediyorum çünkü oyalanmaya zamanım yok.
-    -> bus
+    +++ [...]
+        -> bus
 
 ++ [Uyanman lazım...]
     - "Başım" diye sızlanarak yataktan kalkıyorum, kendimi bir şekilde mutfağa kadar sürükleyip biraz tost ekmeğiyle peynir yemeye başlıyorum.
     +++ [Televizyonu aç]
         Televizyonu açıyorum, haberlerde pek birşey yok, hastanelere çok fazla insanın akın ettiğiyle ilgili bir şeyler diyor spiker.
         ~ TV = true
-        -> bus
+       ++++[...] 
+            -> bus
     +++ [Telefona bak]
         Kız arkadaşımdan mesaj gelmiş, ben yattıktan sadece birkaç dakika sonra hem de: ''Bugün -evet bunu yazarken teknik olarak bugün- öğle arasında bir şeyler yiyip dolaşalım mı?'' yazmış. 12. sınıf olduğu için pek görüşmeye zaman bulamıyoruz. Sadece bir öğle yemeği bile çok hoş geçebiliyor bu yüzden. Üst dönemden bir kızla çıkmak bazen garip kaçabiiyor fakat şikayet ettiğim falan yok, hem de hiç.
         ~ TEL = true
-        -> bus
+        ++++[...]
+            -> bus
     +++ {finished_once == 3} [İnternete bak]
         "OHA ZOMBİLER GERÇEK" diye çığlık atıyorum, o gün okula gitmiyorum ve hiç kimsenin gitmemesini sağlıyorum, ordu zombileri bir kaç saat sonra yok ediyor ve kimse zarar görmüyor.
         -> END
@@ -43,19 +46,23 @@ istemeye istemeye gözlerimi ovuşturuyorum ve telefonumun ekranına dokunuyorum
 == bus ==
 
 -    {SLEEPY:  Uykusuzluktan zorlukla kendimi sürükleyerek dışarı çıkıyorum.}
++ [...]
  Servise girip kendimi koltuğa atıyorum.
+    + [...]
 -    {not HUNGRY && SLEEPY: Gözlerimi kapatıp uykuya dalıyorum. Uykuluyken yemek yiyiyip servise binince hep böyle oluyor. Servis resmen rahatça uykuya dalayım diye hafif hafif sallıyor beni. Servisin güzel yanlarından biri denebilir sanırım.}
++[...]
 -    {not HUNGRY && not SLEEPY: Böylece on dakikanın üstüne tamamlayıp tam anlamıyla uykusuzluğumu yenebilirim.}
++ [...]
 -    {HUNGRY && not SLEEPY: Ama hem açım hem de uykum yok, bu yüzden bunun yerine telefonu açıyorum, kız arkadaşım bugün benimle görüşmek istiyor ne güzel bir gün olacak bugün.''Bugün -evet bunu yazarken teknik olarak bugün- öğle arasında bir şeyler yiyip dolaşalım mı?'' yazmış. 12. sınıf olduğu için pek görüşmeye zaman bulamıyoruz. Sadece bir öğle yemeği bile çok hoş geçebiliyor bu yüzden. Üst dönemden bir kızla çıkmak bazen garip kaçabiiyor fakat şikayet ettiğim falan yok, hem de hiç.}
 
 + {not HUNGRY} [Uyan]
     Gözlerimi açıyorum, servis okula gelmiş. Benim gibi uykulu insanların servisten dışarı çıkmasını bekliyorum. Çıkarken servisçiye bir selam veriyorum ve indiğimde bir iki arkadaşımla karşılaşıyorum.
         ++ [...]
-        En azından okula giderken biraz laflaşalım diyoruz ve hangimizin ders programının daha kötü olduğu üzerine hararetli bir tartışmaya giriyoruz, hem bizim servisimizde hem de diğer servislerden normalden çok daha az insan inmesi dikkatimizi çekiyor..
+        En azından okula giderken biraz laflaşalım diyoruz ve hangimizin ders programının daha kötü olduğu üzerine hararetli bir tartışmaya giriyoruz, hem bizim servisimizde hem de diğer servislerden normalden çok daha az insan inmesi dikkatimizi çekiyor...
         +++ [...]
 + {HUNGRY} [Okula geldin.]
-        Servis okulun park alanına girerken koltuğumda hafifçe yana sallanıyorum
-
+        Servis okulun park alanına girerken koltuğumda hafifçe yana sallanıyorum.
+    ++[...]
 - -> school
 
 == school ==
@@ -68,7 +75,9 @@ Okula girdiğimiz anda bir yanlışlık olduğunu hissediyorum,  tam olarak adı
 == class ==
 mek için üçüncü kata kadar çıkıyor, pencere kenarındaki sırama oturuyorum, insanlarda bir gerginlik var, zil çalıyor, ders başlıyor... Fizik dersi dinlemem için fazla sıkıcı.
     + Dışarı bak[]tığımda binanın önünde insanların toplandığını görebiliyorum, uzaklarda bir yerlerden dumanlar yükseliyor, neler oluyor?
+        ++[...]
     + Telefona bak[]tığımda sinyalin kesilmiş olduğunu görüyorum. Garip, normalde burada sinyal çok iyi çeker...
+         ++ [...]
     - Kapıdan gürültülü bir vurma sesi geliyor, hepimiz donup kalıyoruz. Bu vuruşta insani olmayan bir şey var. Sınıfın salağı da içeride olduğuna göre birisinin böyle kapıya vurması için bir sebep de yok. Sonra art arda başka darbeler gelmeye başlıyor... Hoca dersi anlatmayı bırakıp bağırıyor. ''Oğlum gerizekalı mısın, gir içeri kapıyı kırmadığın kaldı bir tek!''.
     ++ [...]
         Okul binası yapılırken mühendisler aşırı zeki olduğu için sınıf kapılarındaki pencereleri ters takmışlar. Dışarıdan bakan biri içeriyi görebiliyor, fakat içeriden bakan biri kapıdakini göremiyor. Önde oturduğum için kapıdaki bir silüetin sarsıldığını görüyorum sadece. Neden biri böyle bir şey yapar ki? Ben bunlara bir anlam vermeye çalışırken cam bir anda kırılıyor ve korkunç anırma sesleri duyuluyor!
@@ -76,7 +85,7 @@ mek için üçüncü kata kadar çıkıyor, pencere kenarındaki sırama oturuyo
         Kırık camdan içeriye giren ellerden akan kanları görüyor, ellerine yer yer cam kırıkları saplı, hatta bir cam parçası avcundan içeri girmiş ve ters taraftan çıkmış, kanın bir kısmının kaynağı bu olmalı. Gözlerim yüzüne kaydığında, kusmamak için kendimi zor tutuyorum, yüzü sapsarı benekler ve lekelerle kaplı, gözlerinin feri sönmüş ve gözleri ufak beyaz lekeler dışında sapsarı...
 
     ++++ [...]Yaratığın arkasından bir başka yaratık onu insandışı bir kuvvetle tekmeleyerek kapıyı kırdı ve yaratık içeri savruldu, sonra içeri daldı ve kapının yanındaki donup kalmış çocuğun kolunu ısırarak koparıyor, çocuğun dehşet çığlıkları arasında kopan kolundankan fışkırmaya ve duvarı boyamaya başlıyor. Dehşet yaratıklar içeriye girmeye başlıyorlar, hepsinin yüzü benzer olsa da bir kısmının bir ya da iki kolu  birden eksik, kiminin ısırıklardan organları görünebiliyor.
-
+    +++++[...]
         İnsanlara saldırmaya başlıyorlar, acilen ne yapacağıma karar vermeliyim, böyle durursam sıra bana da gelecek.
         -> choices
 
@@ -111,6 +120,7 @@ Gözlerimi ve kulaklarımı açtığımda beni karşılayan şey evimin sessizli
 
 ++++++[...]
 Onlar beni görmeden bir karara varmalıyım...
++++++++[...]
 Şimdi nereye gideceğim?
 -> rooftop_choices
 
