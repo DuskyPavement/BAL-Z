@@ -16,15 +16,20 @@ var dict = {"Gözlerimi sabahın köründe açıyorum. Daha güneş bile çıkma
             "Zombileri durdurmak için sıralardan bir bariyer yapmaya çalışıyoruz, şimdilik onları engellese de çok yakında bu engeli aşacakları da açık...\n":"choices_block_zombies.mp3",
             "Pencereden kantinin çatısına sarkarak dışarı çıkıyorum.\n":"choices_out_of_window_.mp3",
             "Biraz zaman kazandıktan sonra arkadaşlarımla beraber pencereden kantinin çatısına sarkıyoruz.\n":"choices_run_after_block.mp3",
-            "":"choices2_door_to_first_floor.mp3",
-            "":"choices2_door_to_outside.mp3",
-            "":"choices2_door_to_second_floor.mp3",
+            "Kapıyı açmamla beraber yaratıklar beni fark edip bana doğru koşmaya başlıyor. kapıyı yaratıklar bana ulaşmadan kapatıyorum.\n":"choices2_door_to_first_floor.mp3",
+            "Kapıyı açmamla beraber, kapıyı yumruklayanın ölmek üzere olan bir öğrenci olduğunu fark ediyorum, kapıyı açmamla beraber kafasını şiddetle yere vuruyor ve bayılıyor.\n":"choices2_door_to_outside.mp3",
+            "Kapıyı açtığımda yumruklamadan sorumlu olanın bir yaratık olduğunu fark ediyorum, ben kapıyı kapatamadan üstüme çullanıyor.\n":"choices2_door_to_second_floor.mp3",
             "Sınıfa gitmek için üçüncü kata kadar çıkıyor, pencere kenarındaki sırama oturuyorum, insanlarda bir gerginlik var, zil çalıyor, ders başlıyor... Fizik dersi dinlemem için fazla sıkıcı.\n":"class_1.mp3",
             "Kapıdan gürültülü bir vurma sesi geliyor, hepimiz donup kalıyoruz. Bu vuruşta insani olmayan bir şey var. Sınıfın salağı da içeride olduğuna göre birisinin böyle kapıya vurması için bir sebep de yok. Sonra art arda başka darbeler gelmeye başlıyor... Hoca dersi anlatmayı bırakıp bağırıyor. ''Oğlum gerizekalı mısın, gir içeri kapıyı kırmadığın kaldı bir tek!''.\n":"class_2.mp3",
             "Okul binası yapılırken mühendisler aşırı zeki olduğu için sınıf kapılarındaki pencereleri ters takmışlar. Dışarıdan bakan biri içeriyi görebiliyor, fakat içeriden bakan biri kapıdakini göremiyor. Önde oturduğum için kapıdaki bir silüetin sarsıldığını görüyorum sadece. Neden biri böyle bir şey yapar ki? Ben bunlara bir anlam vermeye çalışırken cam bir anda kırılıyor ve korkunç anırma sesleri duyuluyor!\n":"class_3.mp3",
             "Kırık camdan içeriye giren ellerden akan kanları görüyor, ellerine yer yer cam kırıkları saplı, hatta bir cam parçası avcundan içeri girmiş ve ters taraftan çıkmış, kanın bir kısmının kaynağı bu olmalı. Gözlerim yüzüne kaydığında, kusmamak için kendimi zor tutuyorum, yüzü sapsarı benekler ve lekelerle kaplı, gözlerinin feri sönmüş ve gözleri ufak beyaz lekeler dışında sapsarı...\n":"class_4.mp3",
             "Yaratığın arkasından bir başka yaratık onu insandışı bir kuvvetle tekmeleyerek kapıyı kırdı ve yaratık içeri savruldu, sonra içeri daldı ve kapının yanındaki donup kalmış çocuğun kolunu ısırarak koparıyor, çocuğun dehşet çığlıkları arasında kopan kolundankan fışkırmaya ve duvarı boyamaya başlıyor. Dehşet yaratıklar içeriye girmeye başlıyorlar, hepsinin yüzü benzer olsa da bir kısmının bir ya da iki kolu  birden eksik, kiminin ısırıklardan organları görünebiliyor.\n":"class_5.mp3",
-            "İnsanlara saldırmaya başlıyorlar, acilen ne yapacağıma karar vermeliyim, böyle durursam sıra bana da gelecek.\n":"class_6.mp3"
+            "İnsanlara saldırmaya başlıyorlar, acilen ne yapacağıma karar vermeliyim, böyle durursam sıra bana da gelecek.\n":"class_6.mp3",
+            "Öndeki çocuk bana zamanında çok yardım etmişti ve şimdi onu bırakamazdım. Onu yemekte olan yaratığı omzundan çekip yere fırlatmaya çalıştım, fakat yere düşer düşmez ilk yaptığı şey ayağıma yapışmak oldu. Ayağımdaki o korkunç acı, ayağıma bakıp her tarafın kan olduğunu görmem, yere düşmem ve bilincimi yitirmem sadece saniyeler sürdü...\n":"class_dumb_protogonist_dies.mp3",
+            "Dışarı baktığımda binanın önünde insanların toplandığını görebiliyorum, uzaklarda bir yerlerden dumanlar yükseliyor, neler oluyor?\n":"class_look_outside.mp3",
+            "Telefona baktığımda sinyalin kesilmiş olduğunu görüyorum. Garip, normalde burada sinyal çok iyi çeker...\n":"class_look_telephone.mp3",
+            "\n":"school_1.mp3",
+            "\n":"school_2.mp3"
           };
 var audioOld = new Audio();
 var started = 0;

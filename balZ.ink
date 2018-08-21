@@ -98,7 +98,7 @@ mek için üçüncü kata kadar çıkıyor, pencere kenarındaki sırama oturuyo
             ++++ [Kaç]
             Biraz zaman kazandıktan sonra arkadaşlarımla beraber pencereden kantinin çatısına sarkıyoruz.
             -> rooftop
-        +++ [Zombilere karşı koy] Öndeki o inek çocuk bana zamanında çok yardım etmişti ve şimdi onu bırakamazdım. Onu yemekte olan yaratığı omzundan çekip yere fırlatmaya çalıştım, fakat yere düşer düşmez ilk yaptığı şey ayağıma yapışmak oldu. Ayağımdaki o korkunç acı, ayağıma bakıp her tarafın kan olduğunu görmem, yere düşmem ve bilincimi yitirmem sadece saniyeler sürdü...
+        +++ [Zombilere karşı koy] Öndeki çocuk bana zamanında çok yardım etmişti ve şimdi onu bırakamazdım. Onu yemekte olan yaratığı omzundan çekip yere fırlatmaya çalıştım, fakat yere düşer düşmez ilk yaptığı şey ayağıma yapışmak oldu. Ayağımdaki o korkunç acı, ayağıma bakıp her tarafın kan olduğunu görmem, yere düşmem ve bilincimi yitirmem sadece saniyeler sürdü...
         -> Dead
 
 == rooftop ==
