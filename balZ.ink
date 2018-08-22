@@ -32,7 +32,7 @@ istemeye istemeye gözlerimi ovuşturuyorum ve telefonumun ekranına dokunuyorum
     +++ [Televizyonu aç]
         Televizyonu açıyorum, haberlerde pek birşey yok, hastanelere çok fazla insanın akın ettiğiyle ilgili bir şeyler diyor spiker.
         ~ TV = true
-       ++++[...] 
+       ++++[...]
             -> bus
     +++ [Telefona bak]
         Kız arkadaşımdan mesaj gelmiş, ben yattıktan sadece birkaç dakika sonra hem de: ''Bugün -evet bunu yazarken teknik olarak bugün- öğle arasında bir şeyler yiyip dolaşalım mı?'' yazmış. 12. sınıf olduğu için pek görüşmeye zaman bulamıyoruz. Sadece bir öğle yemeği bile çok hoş geçebiliyor bu yüzden. Üst dönemden bir kızla çıkmak bazen garip kaçabiiyor fakat şikayet ettiğim falan yok, hem de hiç.
@@ -120,7 +120,6 @@ Gözlerimi ve kulaklarımı açtığımda beni karşılayan şey evimin sessizli
 
 ++++++[...]
 Onlar beni görmeden bir karara varmalıyım...
-+++++++[...]
 Şimdi nereye gideceğim?
 -> rooftop_choices
 
@@ -131,7 +130,7 @@ Onlar beni görmeden bir karara varmalıyım...
 
 + [Kütüphaneden gir.]
     Kütüphaneden içeriye atlıyorsun, henüz ilk ders olduğu için kütüphanede kimse olmasa gerek ki içeride sadece bir köşede saklanmış nöbetçi öğrenci var.
-    ++ Kapıdan dışarıya bak.
+    ++ [Kapıdan dışarıya bak.]
 
 - Bir öğrenci koridor boyunca onu kovalayan zombiden kaçıyor, zombi gözlerimin önünde çocuğu yakalayıp yere yıkıyor, ısırdığı kolundan kan süzülüyor ve çocuk debelenmeye başlıyor. Çocuğun biraz gerisinde acil çıkış kapısı var, ya da koridor boyunca kaçmayı deneyebilirsin.
 
