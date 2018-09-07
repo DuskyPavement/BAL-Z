@@ -1,110 +1,123 @@
-var dict = {"Gözlerimi sabahın köründe açıyorum. Daha güneş bile çıkmamış, ya da perdelerden girmiyor en azından. Uykusuzum, dün gece geç saatlere kadar arkadaşlarla sohbet etmiştim, bu haftasonu Alsancak’a gidip bir şeyler içme planımızı konuşuyorduk ve aklım doluydu.\n":"start_1.mp3",
-            "istemeye istemeye gözlerimi ovuşturuyorum ve telefonumun ekranına dokunuyorum. Korkunç parlak mavi bir ışık gözlerimi yakıyor. Saat 6.30, eğer kahvaltı etmezsem yirmi dakika daha uyumayı göze alabilirim, on dakika daha uyuyup kahvaltı da edebilirim ama biraz koşuşturmam gerekir ya da şimdi kalkabilirim...\n":"start_2.mp3",
-            "\"Başım\" diye sızlanarak yataktan kalkıyorum, kendimi bir şekilde mutfağa kadar sürükleyip biraz tost ekmeğiyle peynir yemeye başlıyorum.\n":"start_just_wake_up.mp3",
-            "Televizyonu açıyorum, haberlerde pek birşey yok, hastanelere çok fazla insanın akın ettiğiyle ilgili bir şeyler diyor spiker.\n":"start_tel.mp3",
-            "Uykumu aldım, gene de hafifçe yalpalayarak yataktan kalkıyorum, kahvaltıyı hızlıca ediyorum çünkü oyalanmaya zamanım yok.\n":"start_ten.mp3",
-            "Televizyonu açıyorum, haberlerde pek birşey yok, hastanelere çok fazla insanın akın ettiğiyle ilgili bir şeyler diyor spiker.\n":"start_tv.mp3",
-            "Uykumu dolu dolu alıp kalkıyorum, zaten kahvaltı etmeye kimin ihtiyacı var ki? Kantinden bir kaşarlı simit ve Ice Tea alırım yeter.\n":"start_twenty.mp3",
-            "Servis okulun park alanına girerken koltuğumda hafifçe yana sallanıyorum.\n":"bus_arrive.mp3",
-            "Böylece on dakikanın üstüne tamamlayıp tam anlamıyla uykusuzluğumu yenebilirim.\n":"bus_hungry_not_sleep.mp3",
-            "Ama hem açım hem de uykum yok, bu yüzden bunun yerine telefonu açıyorum, kız arkadaşım bugün benimle görüşmek istiyor ne güzel bir gün olacak bugün.''Bugün -evet bunu yazarken teknik olarak bugün- öğle arasında bir şeyler yiyip dolaşalım mı?'' yazmış. 12. sınıf olduğu için pek görüşmeye zaman bulamıyoruz. Sadece bir öğle yemeği bile çok hoş geçebiliyor bu yüzden. Üst dönemden bir kızla çıkmak bazen garip kaçabiiyor fakat şikayet ettiğim falan yok, hem de hiç.\n":"bus_hungry_not_sleepy.mp3",
-            "Servise girip kendimi koltuğa atıyorum.\n":"bus_main.mp3",
-            "Gözlerimi kapatıp uykuya dalıyorum. Uykuluyken yemek yiyiyip servise binince hep böyle oluyor. Servis resmen rahatça uykuya dalayım diye hafif hafif sallıyor beni. Servisin güzel yanlarından biri denebilir sanırım.\n":"bus_not_hungary_sleepy.mp3",
-            "Gözlerimi açıyorum, servis okula gelmiş. Benim gibi uykulu insanların servisten dışarı çıkmasını bekliyorum. Çıkarken servisçiye bir selam veriyorum ve indiğimde bir iki arkadaşımla karşılaşıyorum.\n":"bus_not_hungry_wake_up.mp3",
-            "Uykusuzluktan zorlukla kendimi sürükleyerek dışarı çıkıyorum.\n":"bus_sleepy.mp3",
-            "En azından okula giderken biraz laflaşalım diyoruz ve hangimizin ders programının daha kötü olduğu üzerine hararetli bir tartışmaya giriyoruz, hem bizim servisimizde hem de diğer servislerden normalden çok daha az insan inmesi dikkatimizi çekiyor...\n":"bus_wake_up_2.mp3",
-            "Zombileri durdurmak için sıralardan bir bariyer yapmaya çalışıyoruz, şimdilik onları engellese de çok yakında bu engeli aşacakları da açık...\n":"choices_block_zombies.mp3",
-            "Pencereden kantinin çatısına sarkarak dışarı çıkıyorum.\n":"choices_out_of_window_.mp3",
-            "Biraz zaman kazandıktan sonra arkadaşlarımla beraber pencereden kantinin çatısına sarkıyoruz.\n":"choices_run_after_block.mp3",
-            "Kapıyı açmamla beraber yaratıklar beni fark edip bana doğru koşmaya başlıyor. kapıyı yaratıklar bana ulaşmadan kapatıyorum.\n":"choices2_door_to_first_floor.mp3",
-            "Kapıyı açmamla beraber, kapıyı yumruklayanın ölmek üzere olan bir öğrenci olduğunu fark ediyorum, kapıyı açmamla beraber kafasını şiddetle yere vuruyor ve bayılıyor.\n":"choices2_door_to_outside.mp3",
-            "Kapıyı açtığımda yumruklamadan sorumlu olanın bir yaratık olduğunu fark ediyorum, ben kapıyı kapatamadan üstüme çullanıyor.\n":"choices2_door_to_second_floor.mp3",
-            "Sınıfa gitmek için üçüncü kata kadar çıkıyor, pencere kenarındaki sırama oturuyorum, insanlarda bir gerginlik var, zil çalıyor, ders başlıyor... Fizik dersi dinlemem için fazla sıkıcı.\n":"class_1.mp3",
-            "Kapıdan gürültülü bir vurma sesi geliyor, hepimiz donup kalıyoruz. Bu vuruşta insani olmayan bir şey var. Sınıfın salağı da içeride olduğuna göre birisinin böyle kapıya vurması için bir sebep de yok. Sonra art arda başka darbeler gelmeye başlıyor... Hoca dersi anlatmayı bırakıp bağırıyor. ''Oğlum gerizekalı mısın, gir içeri kapıyı kırmadığın kaldı bir tek!''.\n":"class_2.mp3",
-            "Okul binası yapılırken mühendisler aşırı zeki olduğu için sınıf kapılarındaki pencereleri ters takmışlar. Dışarıdan bakan biri içeriyi görebiliyor, fakat içeriden bakan biri kapıdakini göremiyor. Önde oturduğum için kapıdaki bir silüetin sarsıldığını görüyorum sadece. Neden biri böyle bir şey yapar ki? Ben bunlara bir anlam vermeye çalışırken cam bir anda kırılıyor ve korkunç anırma sesleri duyuluyor!\n":"class_3.mp3",
-            "Kırık camdan içeriye giren ellerden akan kanları görüyor, ellerine yer yer cam kırıkları saplı, hatta bir cam parçası avcundan içeri girmiş ve ters taraftan çıkmış, kanın bir kısmının kaynağı bu olmalı. Gözlerim yüzüne kaydığında, kusmamak için kendimi zor tutuyorum, yüzü sapsarı benekler ve lekelerle kaplı, gözlerinin feri sönmüş ve gözleri ufak beyaz lekeler dışında sapsarı...\n":"class_4.mp3",
-            "Yaratığın arkasından bir başka yaratık onu insandışı bir kuvvetle tekmeleyerek kapıyı kırdı ve yaratık içeri savruldu, sonra içeri daldı ve kapının yanındaki donup kalmış çocuğun kolunu ısırarak koparıyor, çocuğun dehşet çığlıkları arasında kopan kolundankan fışkırmaya ve duvarı boyamaya başlıyor. Dehşet yaratıklar içeriye girmeye başlıyorlar, hepsinin yüzü benzer olsa da bir kısmının bir ya da iki kolu  birden eksik, kiminin ısırıklardan organları görünebiliyor.\n":"class_5.mp3",
-            "İnsanlara saldırmaya başlıyorlar, acilen ne yapacağıma karar vermeliyim, böyle durursam sıra bana da gelecek.\n":"class_6.mp3",
-            "Öndeki çocuk bana zamanında çok yardım etmişti ve şimdi onu bırakamazdım. Onu yemekte olan yaratığı omzundan çekip yere fırlatmaya çalıştım, fakat yere düşer düşmez ilk yaptığı şey ayağıma yapışmak oldu. Ayağımdaki o korkunç acı, ayağıma bakıp her tarafın kan olduğunu görmem, yere düşmem ve bilincimi yitirmem sadece saniyeler sürdü...\n":"class_dumb_protogonist_dies.mp3",
-            "Dışarı baktığımda binanın önünde insanların toplandığını görebiliyorum, uzaklarda bir yerlerden dumanlar yükseliyor, neler oluyor?\n":"class_look_outside.mp3",
-            "Telefona baktığımda sinyalin kesilmiş olduğunu görüyorum. Garip, normalde burada sinyal çok iyi çeker...\n":"class_look_telephone.mp3",
-            "Okula girdiğimiz anda bir yanlışlık olduğunu hissediyorum,  tam olarak adını koyamasam dahi, havada bir ağırlık, adeta bir çürümüşlük var, dikkatimi bir şey daha çekiyor, okulda ne bir köpek ne de bir kedi görebiliyorum, koruya mı gittiler acaba? Köşede birisi deli gibi öksürüyor.\n":"school_1.mp3",
-            "Durumu o kadar kötü görünüyor ki bazı insanlar yanına gidip onu kontrol ediyorlar. Ben de kalıp ciddi bir şey var mı diye baksam mı diye düşünsem de ilk dersin fizik olduğunu ve hocanın yok yazmak için fırsat kolladığını hatırladığımdan okula doğru yürüyorum. Bir öksürüğü hallederler diye düşünüyorum.\n":"school_2.mp3",
-            "Vücudumdaki bütün enerjiyi sarfederek cama tırmanıyorum. Elim ayağım korkunç titriyor. Camdan çatıya atlarken geriye bir bakış atıyorum, sınıfta adeta bir vahşet sahnesi var: üç yıldır tanıdığım insaların, arkadaşlarımın; lime lime edilirken çığlıkları, ağlamaları ve bana bakan gözleri.\n":"rooftop_1.mp3",
-            "Yere zarar görmeden indikten sonra, gözlerimle okulun dışına bakıyorum, Forum Bornova'dan dumanlar yükseliyor, yollarda arabalar kıyametten kaçmak için var güçleriyle gidiyor. Birdenbire acı fren sesleri eşliğinde birbirlerine giriyorlar, metal metali ezerken arabalardan biri yoldan çıkıp demirlere saplanırken sürücüsü camdan dışarıya fırlıyor.\n":"rooftop_2.mp3",
-            "Bahçeye bakıyorum, aşağıda kaos hüküm sürüyor, insanlar kaçarken birbirlerine çarpıyorlar, cesetlere takılıp yere düşüyorlar, bazen cesetlerin arasından fırlayan bir el onları tutup yakalıyor, bazense üstlerine atlayan yaratıklar sonlarını getiriyor, kantinin yanındaki sıkışık yere baktığımda dehşete düşüyorum, gözlerimi çeviriyorum.\n":"rooftop_3.mp3",
-            "Gözlerim sulanırken kulaklarımı kollarımla tutuyorum ve yere çöküyorum, ağlamaya başlarken aklım düşünceler seline yakalanıyor, bu gerçek olamaz diyorum kendi kendime, şimdi uyanacağım deyip gözlerimi kapatıyorum.\n":"rooftop_4.mp3",
-            "Burası sessiz. Burası güvenli. Kabus bitti mi?\n":"rooftop_5.mp3",
-            "Gözlerimi ve kulaklarımı açtığımda beni karşılayan şey evimin sessizliği değil, durumun dehşeti oluyor, yaratıkların homurtuları ve insan çığlıkları kulaklarımı dolduruyor... Bu gerçek, yapabileceğim hiç bir şey yok.\n":"rooftop_6.mp3",
-            "Onlar beni görmeden bir karara varmalıyım... Şimdi nereye gideceğim?\n":"rooftop_7.mp3",
-            "Bir öğrenci koridor boyunca onu kovalayan zombiden kaçıyor, zombi gözlerimin önünde çocuğu yakalayıp yere yıkıyor, ısırdığı kolundan kan süzülüyor ve çocuk debelenmeye başlıyor. Çocuğun biraz gerisinde acil çıkış kapısı var, ya da koridor boyunca kaçmayı deneyebilirsin.\n":"rooftop_choices_1.mp3",
-            "Çocuğa yardım etmem mümkün değil, yaratığa görünmemeye çalışarak çocuğun yanından geçiyorum ve yaratık beni görmeden acil çıkış kapısından içeri giriyorum.\n":"rooftop_choices_encounter_escape.mp3",
-            "Koridordan kaçmayı denediğinde yaratık seni görüp koşmaya başlıyor, ondan daha hızlı koşmayı deniyorsun ancak onun insanüstü hızına ulaşman mümkün değil.\n":"rooftop_choices_encounter_escape_but_not_the_right_way.mp3",
-            "Çocuğa yardım etmeye çalışıyorsun, ancak yanına yaklaşamadan yaratık seni görüp üzerine atlıyor. Parçalanarak ölüyorsun, çığlıkların koridorda yankılanıyor.\n":"rooftop_choices_encounter_help.mp3",
-            "Kütüphaneden içeriye atlıyorsun, henüz ilk ders olduğu için kütüphanede kimse olmasa gerek ki içeride sadece bir köşede saklanmış nöbetçi öğrenci var.\n":"rooftop_choices_library.mp3",
-            "Acil çıkış kapısını arkamdan kapatıyorum, içeriye girdiğimde kapının önüne çöküp nefesimi toparlamaya çalışıyorum. Nedensonra kendimi toparlayıp ayağa kalkıyorum ve aşağı kata iniyorum, dışarıya açılan kapıyı açacakken kapının arkasından yumruklama sesleri gelmeye başlıyor, bunlar zayıf sesler, üst kat kapısından gürültülü vurma sesleri gelmeye başlıyor aynı anda... ne yapmalıyım?\n":"emergency_exit_1.mp3",
-            "Dışarısı cesetlerle kaplı. Sanki bir savaş olmuş ve bitmiş gibi, üst üste yığılmış cesetlerle dolu her yer, yaratıklar burada kimseyi bırakmamış olsalar ki gitmişler, her yer parçalanmış vücutlarla ve kanla kaplı.\n":"outside_1.mp3",
-          };
-var audioOld = new Audio();
-var started = 0;
-function playSound(paragraphElement_) {
-  if (started > 1){
-    audioOld.pause()
-  }
-  console.log(dict[paragraphElement_]);
-  var audio = new Audio("\./audio\/output\/mp3\/" + dict[paragraphElement_]);
-  audio.play();
-  started = started + 1;
-  audioOld = audio;
-}
+var audioStart= new Audio("./audio/Ocathail__Hasto_-_03_-_Ocathail_-_Windy_View.mp3");
+var audioLater = new Audio("./audio/David_Szesztay_-_Creepy_Atmo.mp3")
+audioStart.loop = true;
+audioLater.loop = true;
 
 (function(storyContent) {
 
+    // Create ink story from the content using inkjs
     var story = new inkjs.Story(storyContent);
 
-    var storyContainer = document.querySelectorAll('#story')[0];
+    // Global tags - those at the top of the ink file
+    // We support:
+    //  # theme: dark
+    //  # author: Your Name
+    var globalTags = story.globalTags;
+    if( globalTags ) {
+        for(var i=0; i<story.globalTags.length; i++) {
+            var globalTag = story.globalTags[i];
+            var splitTag = splitPropertyTag(globalTag);
 
-    function showAfter(delay, el) {
-        setTimeout(function() { el.classList.add("show") }, delay);
-    }
+            // THEME: dark
+            if( splitTag && splitTag.property == "theme" ) {
+                document.body.classList.add(splitTag.val);
+            }
 
-    function scrollToBottom() {
-        var progress = 0.0;
-        var start = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-        var dist = document.body.scrollHeight - window.innerHeight - start;
-        if( dist < 0 ) return;
-
-        var duration = 300 + 300*dist/100;
-        var startTime = null;
-        function step(time) {
-            if( startTime == null ) startTime = time;
-            var t = (time-startTime) / duration;
-            var lerp = 3*t*t - 2*t*t*t;
-            window.scrollTo(0, start + lerp*dist);
-            if( t < 1 ) requestAnimationFrame(step);
+            // author: Your Name
+            else if( splitTag && splitTag.property == "author" ) {
+                var byline = document.querySelector('.byline');
+                byline.innerHTML = "by "+splitTag.val;
+            }
         }
-        requestAnimationFrame(step);
     }
 
-    function continueStory() {
+    var storyContainer = document.querySelector('#story');
+    var outerScrollContainer = document.querySelector('.outerContainer');
+
+    // Kick off the start of the story!
+    continueStory(true);
+
+    // Main story processing function. Each time this is called it generates
+    // all the next content up as far as the next set of choices.
+    function continueStory(firstTime) {
 
         var paragraphIndex = 0;
         var delay = 0.0;
+
+        // Don't over-scroll past new content
+        var previousBottomEdge = firstTime ? 0 : contentBottomEdgeY();
 
         // Generate story text - loop through available content
         while(story.canContinue) {
 
             // Get ink to generate the next paragraph
             var paragraphText = story.Continue();
+            var tags = story.currentTags;
+            if (paragraphText == "Gözlerimi sabahın köründe açıyorum. Daha güneş bile çıkmamış, ya da perdelerden girmiyor en azından. Uykusuzum, dün gece geç saatlere kadar arkadaşlarla sohbet etmiştim, bu haftasonu Alsancak’a gidip bir şeyler içme planımızı konuşuyorduk ve aklım doluydu.\n") {
+              if (audioLater.paused == false) {
+                audioLater.pause();
+              }
+              audioStart.play();
+            }
 
-            // Create paragraph element
+            if (paragraphText == "Kırık camdan içeriye giren ellerden akan kanları görüyor, ellerine yer yer cam kırıkları saplı, hatta bir cam parçası avcundan içeri girmiş ve ters taraftan çıkmış, kanın bir kısmının kaynağı bu olmalı. Gözlerim yüzüne kaydığında, kusmamak için kendimi zor tutuyorum, yüzü sapsarı benekler ve lekelerle kaplı, gözlerinin feri sönmüş ve gözleri ufak beyaz lekeler dışında sapsarı...\n") {
+              if (audioStart.paused == false) {
+                audioStart.pause();
+              }
+              audioLater.play();
+            }
+
+            // Any special tags included with this line
+            var customClasses = [];
+            for(var i=0; i<tags.length; i++) {
+                var tag = tags[i];
+
+                // Detect tags of the form "X: Y". Currently used for IMAGE and CLASS but could be
+                // customised to be used for other things too.
+                var splitTag = splitPropertyTag(tag);
+
+                // IMAGE: src
+                if( splitTag && splitTag.property == "IMAGE" ) {
+                    var imageElement = document.createElement('img');
+                    imageElement.src = splitTag.val;
+                    storyContainer.appendChild(imageElement);
+
+                    showAfter(delay, imageElement);
+                    delay += 200.0;
+                }
+
+                // CLASS: className
+                else if( splitTag && splitTag.property == "CLASS" ) {
+                    customClasses.push(splitTag.val);
+                }
+
+                // CLEAR - removes all existing content.
+                // RESTART - clears everything and restarts the story from the beginning
+                else if( tag == "CLEAR" || tag == "RESTART" ) {
+                    removeAll("p");
+                    removeAll("img");
+
+                    // Comment out this line if you want to leave the header visible when clearing
+                    setVisible(".header", false);
+
+                    if( tag == "RESTART" ) {
+                        restart();
+                        return;
+                    }
+                }
+            }
+
+            // Create paragraph element (initially hidden)
             var paragraphElement = document.createElement('p');
             paragraphElement.innerHTML = paragraphText;
             storyContainer.appendChild(paragraphElement);
-            playSound(paragraphText);
+
+            // Add any custom classes derived from ink tags
+            for(var i=0; i<customClasses.length; i++)
+                paragraphElement.classList.add(customClasses[i]);
+
             // Fade in paragraph after a short delay
             showAfter(delay, paragraphElement);
-
             delay += 200.0;
         }
 
@@ -129,11 +142,7 @@ function playSound(paragraphElement_) {
                 event.preventDefault();
 
                 // Remove all existing choices
-                var existingChoices = storyContainer.querySelectorAll('p.choice');
-                for(var i=0; i<existingChoices.length; i++) {
-                    var c = existingChoices[i];
-                    c.parentNode.removeChild(c);
-                }
+                removeAll("p.choice");
 
                 // Tell the story where to go next
                 story.ChooseChoiceIndex(choice.index);
@@ -143,9 +152,107 @@ function playSound(paragraphElement_) {
             });
         });
 
-        scrollToBottom();
+        // Extend height to fit
+        // We do this manually so that removing elements and creating new ones doesn't
+        // cause the height (and therefore scroll) to jump backwards temporarily.
+        storyContainer.style.height = contentBottomEdgeY()+"px";
+
+        if( !firstTime )
+            scrollDown(previousBottomEdge);
     }
 
-    continueStory();
+    function restart() {
+        story.ResetState();
+
+        setVisible(".header", true);
+
+        continueStory(true);
+
+        outerScrollContainer.scrollTo(0, 0);
+    }
+
+    // -----------------------------------
+    // Various Helper functions
+    // -----------------------------------
+
+    // Fades in an element after a specified delay
+    function showAfter(delay, el) {
+        el.classList.add("hide");
+        setTimeout(function() { el.classList.remove("hide") }, delay);
+    }
+
+    // Scrolls the page down, but no further than the bottom edge of what you could
+    // see previously, so it doesn't go too far.
+    function scrollDown(previousBottomEdge) {
+
+        // Line up top of screen with the bottom of where the previous content ended
+        var target = previousBottomEdge;
+
+        // Can't go further than the very bottom of the page
+        var limit = outerScrollContainer.scrollHeight - outerScrollContainer.clientHeight;
+        if( target > limit ) target = limit;
+
+        var start = outerScrollContainer.scrollTop;
+
+        var dist = target - start;
+        var duration = 300 + 300*dist/100;
+        var startTime = null;
+        function step(time) {
+            if( startTime == null ) startTime = time;
+            var t = (time-startTime) / duration;
+            var lerp = 3*t*t - 2*t*t*t; // ease in/out
+            outerScrollContainer.scrollTo(0, (1.0-lerp)*start + lerp*target);
+            if( t < 1 ) requestAnimationFrame(step);
+        }
+        requestAnimationFrame(step);
+    }
+
+    // The Y coordinate of the bottom end of all the story content, used
+    // for growing the container, and deciding how far to scroll.
+    function contentBottomEdgeY() {
+        var bottomElement = storyContainer.lastElementChild;
+        return bottomElement ? bottomElement.offsetTop + bottomElement.offsetHeight : 0;
+    }
+
+    // Remove all elements that match the given selector. Used for removing choices after
+    // you've picked one, as well as for the CLEAR and RESTART tags.
+    function removeAll(selector)
+    {
+        var allElements = storyContainer.querySelectorAll(selector);
+        for(var i=0; i<allElements.length; i++) {
+            var el = allElements[i];
+            el.parentNode.removeChild(el);
+        }
+    }
+
+    // Used for hiding and showing the header when you CLEAR or RESTART the story respectively.
+    function setVisible(selector, visible)
+    {
+        var allElements = storyContainer.querySelectorAll(selector);
+        for(var i=0; i<allElements.length; i++) {
+            var el = allElements[i];
+            if( !visible )
+                el.classList.add("invisible");
+            else
+                el.classList.remove("invisible");
+        }
+    }
+
+    // Helper for parsing out tags of the form:
+    //  # PROPERTY: value
+    // e.g. IMAGE: source path
+    function splitPropertyTag(tag) {
+        var propertySplitIdx = tag.indexOf(":");
+        if( propertySplitIdx != null ) {
+            var property = tag.substr(0, propertySplitIdx).trim();
+            var val = tag.substr(propertySplitIdx+1).trim();
+            return {
+                property: property,
+                val: val
+            };
+        }
+
+        return null;
+    }
 
 })(storyContent);
