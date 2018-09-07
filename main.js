@@ -2,6 +2,8 @@ var audioStart= new Audio("./audio/Ocathail__Hasto_-_03_-_Ocathail_-_Windy_View.
 var audioLater = new Audio("./audio/David_Szesztay_-_Creepy_Atmo.mp3")
 audioStart.loop = true;
 audioLater.loop = true;
+audioStart.preload;
+audioLater.preload;
 
 (function(storyContent) {
 
