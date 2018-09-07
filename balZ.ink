@@ -10,6 +10,8 @@ VAR finished_once = 0
 Merhaba. BAL-Z'ye hoş geldiniz. Başla'ya tıklayarak oyunu başlatabilirsiniz, hikaye boyunca belli noktalarda sizden kararlar vermeniz istenecek, verdiğiniz kararlara göre hikayenin sonu değişecek.
 
 İyi şanslar.
+
+#IMAGE: ./balz.jpeg #CLASS: image-at-night
 + [Başla]
     -> start
 + [Lisanslar]
