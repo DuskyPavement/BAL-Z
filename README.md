@@ -3,6 +3,7 @@
 A parting gift to BAL from two seniors, Efe Janberk Baykan and Ege Emir Özkan,
 with visual support from Belit Arıcı, a zombie game set in BAL, for, why not?
 
+Inspired by Dead Frontier.
 ## Licenses
 
     * Ocathail - Windy View by Ocathail / Hastío  - CC NoCommercial Attribution
